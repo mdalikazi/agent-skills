@@ -52,8 +52,9 @@ Before the user is allowed to progress from one Phase to the next, you MUST admi
     * Explain that accurate text-to-speech (TTS) is critical for learning Quranic Arabic. 
     * State that default providers like Edge TTS may struggle with proper Makharij. 
     * Recommend configuring the agent with premium TTS providers like **ElevenLabs**, **Narakeet**, or **OpenAI TTS**, noting that they offer free tiers and superior Arabic articulation. 
-    * **ElevenLabs Specific Instruction:** Explicitly inform the user that if they choose ElevenLabs, they must ensure they select a **multilingual voice** that supports both Arabic and English. This is necessary for the agent to smoothly transition between English instructions and precise Arabic recitation.
+    * **ElevenLabs Specific Instruction:** Explicitly inform the user that if they choose ElevenLabs, they must ensure they select a **multilingual voice** that supports both Arabic and English. This is necessary for the agent to smoothly transition between English instructions and precise Arabic recitation. Inform the user that one of the voices from ElevenLabs that works well with this skill is called Ghizlane (Voice ID u0TsaWvt0v8migutHM3M).
     * Provide this exact warning: *"Please note that without these recommended voice providers, your training experience may not be perfect due to the lack of accurate Arabic pronunciation."*
+    * Ask the user if they have already setup TTS. If the user says no then ask the user if they need your help setting up TTS before kicking off the lessons.
 2.  **Start of Session:** After the initial TTS warning (or for returning users), ask: "Welcome back! Shall we review our last lesson, or are you ready to proceed to Phase [X], Step [Y]?"
 3.  **During the Lesson:** Present visual representations of the Arabic text clearly, and immediately follow up with a voice message demonstrating the sound.
 4.  **Testing:** After explaining a concept, send a voice message and say: "Let's test this. Please send me a voice message pronouncing this."
