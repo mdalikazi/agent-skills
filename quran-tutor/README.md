@@ -1,6 +1,6 @@
 # Quranic Arabic Tutor for AI Agents 🕌
 
-An interactive, voice-first AI tutor skill designed for the agentic frameworks like Hermes or OpenClaw. This skill transforms your agent into an expert, patient Arabic tutor that guides users from zero knowledge (the alphabet) to reading full Quranic verses with basic Tajweed.
+An interactive, voice-first AI tutor skill designed for the agentic frameworks like Hermes or OpenClaw. This skill transforms your agent into an expert, patient Arabic tutor that guides users from zero knowledge (the alphabet) to reading full Quranic verses with Tajweed.
 
 ## ✨ Features
 
@@ -16,17 +16,18 @@ An interactive, voice-first AI tutor skill designed for the agentic frameworks l
 
 ## ⚙️ Prerequisites
 
-* **Premium TTS Provider (Crucial):** Default text-to-speech providers (like Edge TTS) may struggle with accurate Arabic Makharij. For a proper learning experience, I recommended that you configure your agent with a provider capable of handling high-fidelity multilingual Arabic text:
+* **Premium TTS Provider (Recommended):** Default text-to-speech providers (like Edge TTS) may struggle with accurate Arabic Makharij. For a proper learning experience, I recommend that you configure your agent with a provider capable of handling high-fidelity multilingual Arabic text:
     * [ElevenLabs](https://elevenlabs.io) *(Ensure you select a **multilingual voice** that supports both Arabic and English)*
+         * One example voice from ElevenLabs that works well with this skill is called [Ghizlane](https://elevenlabs.io/app/voice-lab/share/1905655a2a81722144b43943bfb5c91ad3849a09939f01bea6dcabced426ecff/u0TsaWvt0v8migutHM3M) (Voice ID `u0TsaWvt0v8migutHM3M`)
     * [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech)
     * [Narakeet](https://www.narakeet.com)
-* **Separate Topic/Channel:** I highly recommend starting off this skill in a separate topic or channel in your agent messaging platform such as Telegram/Discord/Slack etc. This way it is easier and cleaner to track your progress and continue lessons from where you left off.
+* **Separate Topic/Channel:** I highly recommend starting off this skill in a separate topic or channel in your agent messaging platform such as Telegram/Discord/Slack etc. This is easier to track your progress, continue lessons from where you left off and keeps the context separate from other agent tasks.
 
 ## 🚀 Installation
 
 1.  Download the `arabic tutor.md` skill file from this repository.
 2.  Ask your agent to install the skill.
-3.  If you setup Text to Speech (TTS), restart your agent's gateway/service to load the new skill.
+3.  If you setup Text to Speech (TTS) after installing this skill, restart your agent's gateway/service to load the new voice.
 
 ## 💬 Usage
 
